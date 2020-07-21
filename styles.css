@@ -302,6 +302,10 @@ input {
 }
 
 
+#traffic-chart {
+    height: 300px;
+    width: 457px;
+}
 
 
 
@@ -674,6 +678,29 @@ input:checked + .slider .off
 
 @media (min-width: 768px) {
 
+    .grid-container {
+        display: grid;
+        height: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70px 60px 1fr;
+        
+        grid-template-areas:
+             "head"
+             "nav"
+             "main";
+ }
+
+ .half,
+ .member-info,
+ .message-and-settings {
+grid-template-columns: repeat(2, 1fr);
+}
+
+.social-media-info {
+
+grid-template-columns: repeat(3, 1fr);
+}
+
 
 
 .header-profile-image {
@@ -681,13 +708,6 @@ input:checked + .slider .off
 	padding: 8px;
 	border-radius: 45px;
 	
-}
-
-
-
- #traffic-chart {
-    height: 384px;
-    width: 768px;
 }
 
 
@@ -844,10 +864,6 @@ input:checked + .slider .off
 
 
 }
-
-
-
-
 
 
 
@@ -1034,35 +1050,7 @@ input:checked + .slider .off
  
  
  
- @media (min-width: 768px) {
- 
-     .grid-container {
-            display: grid;
-            height: 100%;
-            grid-template-columns: 1fr;
-            grid-template-rows: 70px 60px 1fr;
-            
-            grid-template-areas:
-                 "head"
-                 "nav"
-                 "main";
-     }
- 
-     .half,
-     .member-info,
-     .message-and-settings {
-    grid-template-columns: repeat(2, 1fr);
- }
- 
- .social-media-info {
- 
-    grid-template-columns: repeat(3, 1fr);
- }
- 
- }
- 
- 
- 
+
  
  @media (min-width: 1024px) {
  
