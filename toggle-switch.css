@@ -235,7 +235,7 @@
   .switch-toggle.switch-candy,
   .switch-light.switch-candy > span {
     background-color: #2d3035;
-    border-radius: 22px;
+    border-radius: 3px;
     box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.2); }
   .switch-light.switch-candy span span,
   .switch-light.switch-candy input:checked ~ span span:first-child,
@@ -247,13 +247,13 @@
   .switch-light.switch-candy input ~ span span:first-child,
   .switch-light.switch-candy input:checked ~ span span:nth-child(2),
   .switch-candy input:checked + label {
-    color: #fff;
+    color: #333;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
   .switch-candy a {
     border: 1px solid #333;
     border-radius: 3px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), inset 0 1px 1px rgba(255, 255, 255, 0.45);
-    background-color: #7a4ce6;
+    background-color: #70c66b;
     background-image: linear-gradient(rgba(255, 255, 255, 0.2), transparent); }
   .switch-candy-blue a {
     background-color: #38a3d4; }
@@ -262,7 +262,7 @@
   /* iOS Theme
 */
   .switch-ios.switch-light span span {
-    color: #fff; }
+    color: #888b92; }
   .switch-ios.switch-light a {
     left: 0;
     top: 0;
@@ -274,10 +274,9 @@
     transition: all .2s ease-out; }
   .switch-ios.switch-light > span {
     display: block;
-    
-    width: 20%;
+    width: 100%;
     height: 2em;
-    background-color: #7a4ce6;
+    background-color: #D8D9DB;
     border-radius: 1.75em;
     transition: all .4s ease-out; }
   .switch-ios.switch-light > span span {
@@ -296,11 +295,11 @@
       padding-right: 1.875em; }
   .switch-ios.switch-light input:checked ~ span a {
     left: 100%;
-    border-color: #D8D9DB;
+    border-color: #4BD865;
     margin-left: -2em; }
   .switch-ios.switch-light input:checked ~ span {
-    border-color: #D8D9DB;
-    box-shadow: inset 0 0 0 30px #D8D9DB; }
+    border-color: #4BD865;
+    box-shadow: inset 0 0 0 30px #4BD865; }
   .switch-ios.switch-light input:checked ~ span span:first-of-type {
     opacity: 0; }
   .switch-ios.switch-light input:checked ~ span span:last-of-type {
